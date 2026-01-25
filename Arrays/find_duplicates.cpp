@@ -21,3 +21,4 @@ int main() {
     cout<<"find duplicates are: "<<dupl<<endl;
 }
 
+//It is only valid for if their is only on duplicate present.
