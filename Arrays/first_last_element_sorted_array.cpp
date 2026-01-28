@@ -47,7 +47,7 @@ int last_occ(int arr[], int n, int key) {
 
 
 
-
+ 
 
 
 
