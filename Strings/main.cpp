@@ -23,8 +23,8 @@
 
 
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
 
 
@@ -39,27 +39,41 @@ using namespace std;
 //        }
 //   }
 
-bool palindrome(char a[], int n) {
-    int s=0;
-    int e=n-1;
-    while(s<e) {
-        if(a[s] != a[e]) {
-            return 0;
-        }
-        else {
-            s++;
-            e--;
-        }
-        return 1;
-    }
+// bool palindrome(char a[], int n) {
+//     int s=0;
+//     int e=n-1;
+//     while(s<e) {
+//         if(a[s] != a[e]) {
+//             return 0;
+//         }
+//         else {
+//             s++;
+//             e--;
+//         }
+//         return 1;
+//     }
     
-}
+// }
 
+
+
+
+// int main() {
+//     char ch[]="kuuk";
+    
+//     cout<<palindrome(ch, 4);
+// }
+
+
+#include<iostream>
+using namespace std;
 
 
 
 int main() {
-    char ch[]="kuuk";
-    
-    cout<<palindrome(ch, 4);
+    char name[100];
+    cout<<"enter a character: ";
+    cin>>name;
+
+    cout<<"the character you have entered: "<<name;
 }
