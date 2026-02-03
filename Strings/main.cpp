@@ -69,7 +69,6 @@
 // using namespace std;
 
 
-
 // int main() {
 //     char name[100];
 //     cout<<"enter a character: ";
