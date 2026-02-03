@@ -65,15 +65,28 @@
 // }
 
 
-#include<iostream>
+// #include<iostream>
+// using namespace std;
+
+
+
+// int main() {
+//     char name[100];
+//     cout<<"enter a character: ";
+//     cin>>name;
+
+//     cout<<"the character you have entered: "<<name;
+// }
+
+#include <bits/stdc++.h>
 using namespace std;
 
-
-
 int main() {
-    char name[100];
-    cout<<"enter a character: ";
-    cin>>name;
-
-    cout<<"the character you have entered: "<<name;
+    string name;
+    
+    // Taking input from cin stream(standard
+    // input stream) and storing it in name
+    getline(cin, name);
+    cout << name;
+    return 0;
 }
