@@ -10,12 +10,24 @@ int main() {
     // cout << "Pointer ptr stores: " << ptr << endl;
     // cout << "Value at ptr (*ptr): " << *ptr << endl;
 
-    int x = 10;
-    int *p = &x;
-    cout<< x <<endl;
-    cout << *p << endl;
-    cout << &x << endl;
+    // int x = 10;
+    // int *p = &x;
+    // cout<< x <<endl;
+    // cout << *p << endl;
+    // cout << &x << endl;
     
-    cout<<p;
+    // cout<<p;
+
+    int i=5;
+    int *q=&i;
+    cout<<q<<endl;
+    cout<<*q<<endl;
+
+    int *p=0;
+    p=&i;
+
+    cout<<p<<endl;
+    cout<<*p<<endl;
+
 
 }
