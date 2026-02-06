@@ -13,18 +13,6 @@ void  move_zero(int arr[], int n) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 int main() {
 
     int arr[]={1,0,2,3,0,2,9,0,0};
