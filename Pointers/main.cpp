@@ -43,7 +43,9 @@ int main() {
     cout<<"after "<<num<<endl; 
 
 
-
+    int *q=p;
+    cout<<p<<"-"<<q<<endl;
+    cout<<*p<<"-"<<*q<<endl;
 
 
 
