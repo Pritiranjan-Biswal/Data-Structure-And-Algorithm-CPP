@@ -21,6 +21,7 @@ int print(int arr[], int n) {
 
 
 
+
 int main() {
     int arr[]={0, 1, 0, 3, 12};
     move_zero(arr, 5);

@@ -23,7 +23,7 @@ void merge(int arr1[], int m, int arr2[], int n, int arr3[]) {
 
 
 void print(int arr3[], int n) {
-    for(int i=0; i<n; i++) {
+    for(int i=0; i<n; i++) {    
         cout<<arr3[i]<<" 0";
     }
 }
