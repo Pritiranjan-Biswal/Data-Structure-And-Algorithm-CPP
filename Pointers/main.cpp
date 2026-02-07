@@ -57,12 +57,12 @@ int main() {
     // t=t+1;
     // cout<<"after t"<<t<<endl;
 
-    int arr[10]={1, 2, 3};
+    int arr[10]={1, 4, 3};
     // cout<<"the address of the first memory block is : "<<arr<<endl;
     // cout<<"the address of the first memory block is : "<<&arr[0]<<endl;
 
     // cout<<*arr;
-    cout<<(*arr)+1;
+    cout<<*(arr+1);
 
 
 
