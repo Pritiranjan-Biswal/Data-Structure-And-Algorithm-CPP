@@ -57,7 +57,9 @@ int main() {
     // t=t+1;
     // cout<<"after t"<<t<<endl;
 
-
+    int arr[10];
+    cout<<"the address of the first memory block is : "<<arr<<endl;
+    cout<<"the address of the first memory block is : "<<&arr[0]<<endl;
 
 
 
