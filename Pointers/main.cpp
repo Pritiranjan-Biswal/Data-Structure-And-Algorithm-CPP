@@ -63,11 +63,16 @@ int main() {
 
     // cout<<*arr;
     // cout<<(*arr)+1;
-    cout<< &arr[0]<<endl;
-    cout<<arr;
+    // cout<< &arr[0]<<endl;
+    // cout<<arr;
 
 
-
+    cout<<sizeof(arr)<<endl;
+    int *ptr=&arr[0];
+    cout<<sizeof(ptr)<<endl;
+    cout<<ptr<<endl;
+    cout<<*ptr<<endl;
+    cout<<sizeof(*ptr)<<endl;
 
 
 
