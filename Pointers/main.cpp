@@ -76,14 +76,34 @@ int main() {
     // cout<<&ptr;
 
 
-    int arr[10];
-    //arr=arr+1;
-    // cout<<arr;
+    // int arr[10];
+    // //arr=arr+1;
+    // // cout<<arr;
 
-    int *ptr= &arr[0];
-    cout<<ptr<<endl;
-    ptr=ptr+1;
-    cout<<ptr<<endl;
+    // int *ptr= &arr[0];
+    // cout<<ptr<<endl;
+    // ptr=ptr+1;
+    // cout<<ptr<<endl;
+
+
+    char ch[6]="abcde";
+    cout<<ch<<endl;
+
+
+    char *c=&ch[0];
+    cout<<c<<endl;
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
+
