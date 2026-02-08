@@ -62,8 +62,9 @@ int main() {
     // cout<<"the address of the first memory block is : "<<&arr[0]<<endl;
 
     // cout<<*arr;
-    cout<<(*arr)+1;
-
+    // cout<<(*arr)+1;
+    cout<< &arr[0]<<endl;
+    cout<<arr;
 
 
 
