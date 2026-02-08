@@ -57,7 +57,7 @@ int main() {
     // t=t+1;
     // cout<<"after t"<<t<<endl;
 
-    int arr[10]={1, 4, 3};
+    //int arr[10]={1, 4, 3};
     // cout<<"the address of the first memory block is : "<<arr<<endl;
     // cout<<"the address of the first memory block is : "<<&arr[0]<<endl;
 
@@ -67,13 +67,23 @@ int main() {
     // cout<<arr;
 
 
-    cout<<sizeof(arr)<<endl;
-    int *ptr=&arr[0];
-    cout<<sizeof(ptr)<<endl;
-    cout<<ptr<<endl;
-    cout<<*ptr<<endl;
-    cout<<sizeof(*ptr)<<endl;
+    // cout<<sizeof(arr)<<endl;
+    //int *ptr=&arr[0];
+    // cout<<sizeof(ptr)<<endl;
+    // cout<<ptr<<endl;
+    // cout<<*ptr<<endl;
+    // cout<<sizeof(*ptr)<<endl;
+    // cout<<&ptr;
 
+
+    int arr[10];
+    //arr=arr+1;
+    // cout<<arr;
+
+    int *ptr= &arr[0];
+    cout<<ptr<<endl;
+    ptr=ptr+1;
+    cout<<ptr<<endl;
 
 
 }
