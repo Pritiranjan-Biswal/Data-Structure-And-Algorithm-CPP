@@ -25,10 +25,10 @@ int main() {
     // cout<<first<<" "<<second<<endl;
 
 
-    int first=6;
+    // int first=6;
 
-    int *p=&first;
-    int *q=p;
-    (*q)++;
-    cout<<first<<endl;
+    // int *p=&first;
+    // int *q=p;
+    // (*q)++;
+    // cout<<first<<endl;
 }
