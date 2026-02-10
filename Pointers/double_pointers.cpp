@@ -3,7 +3,6 @@ using namespace std;
 
 
 
-
 int main() {
     // int i=5;
     // int *ptr=&i;
@@ -31,4 +30,17 @@ int main() {
     // int *q=p;
     // (*q)++;
     // cout<<first<<endl;
+
+    // int first=8;
+    // int *p=&first;
+
+    // cout<<(*p)++ <<" ";
+    // cout<<first<<endl;
+
+
+
+    int *p=0;
+    int first=110;
+    *p=first;
+    cout<<*p<<endl;
 }
