@@ -16,14 +16,19 @@ int main() {
     // cout<<*ptr2<<endl;
     // cout<<&ptr2<<endl;
 
-    int first=8;
-    int second=18;
+    // int first=8;
+    // int second=18;
 
-    int *ptr=&second;
-    *ptr=9;
+    // int *ptr=&second;
+    // *ptr=9;
 
-    cout<<first<<" "<<second<<endl;
+    // cout<<first<<" "<<second<<endl;
 
 
+    int first=6;
 
+    int *p=&first;
+    int *q=p;
+    (*q)++;
+    cout<<first<<endl;
 }
