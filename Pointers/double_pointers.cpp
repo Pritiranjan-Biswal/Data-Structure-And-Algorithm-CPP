@@ -52,15 +52,16 @@ int main() {
     // cout<<first<<" "<<second<<endl;
 
 
-    float f=12.5;
-    float p=21.5;
-    float *ptr=&f;
-    (*ptr)++;
-    *ptr=p;
-    cout<<*ptr<< " "<<f<<" "<<endl;
+    // float f=12.5;
+    // float p=21.5;
+    // float *ptr=&f;
+    // (*ptr)++;
+    // *ptr=p;
+    // cout<<*ptr<< " "<<f<<" "<<endl;
 
 
-
+    int arr[]={11,22,3,4,5};
+    cout<<arr<<" "<<&arr<<endl;
 
 
 
