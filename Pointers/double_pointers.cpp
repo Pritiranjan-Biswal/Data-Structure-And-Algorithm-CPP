@@ -60,8 +60,8 @@ int main() {
     // cout<<*ptr<< " "<<f<<" "<<endl;
 
 
-    int arr[]={11,22,3,4,5};
-    cout<<arr<<" "<<&arr<<endl;
+    // int arr[]={11,22,3,4,5};
+    // cout<<arr<<" "<<&arr<<endl;
 
 
 
@@ -70,7 +70,7 @@ int main() {
 
 
 
-
+ 
 
 
 
