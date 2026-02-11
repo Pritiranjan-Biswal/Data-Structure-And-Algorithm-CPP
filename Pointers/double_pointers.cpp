@@ -63,13 +63,7 @@ int main() {
     // int arr[]={11,22,3,4,5};
     // cout<<arr<<" "<<&arr<<endl;
 
-    int first=8;
-    int second=11;
-    int *third=&second;
-    first=*third;
-    *third=*third+2;
-    cout<<first<<" "<<second<<endl;
-
+    
 
 
 
