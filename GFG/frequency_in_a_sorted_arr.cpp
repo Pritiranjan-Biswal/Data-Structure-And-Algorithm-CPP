@@ -16,7 +16,8 @@ void freq_arr(int arr[], int n) {
         }
     }
 
-    
+    cout << arr[n-1] << " " << count << endl;
+
 }
 
 
