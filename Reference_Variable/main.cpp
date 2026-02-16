@@ -6,4 +6,10 @@ int main() {
     int i=5;
     int &j=i;
     cout<<i<<endl;
+    // cout<<&j<<endl;
+    i++;
+    cout<<i<<endl;
+    j++;
+    cout<<i<<endl;
+    cout<<j<<endl;
 }
