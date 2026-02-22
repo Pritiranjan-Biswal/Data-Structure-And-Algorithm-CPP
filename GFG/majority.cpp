@@ -1,45 +1,39 @@
 #include<iostream>
 using namespace std;
 
-
 int maj_ele(int arr[], int n) {
-    int maj=arr[0];
-    int count=1;
-    for(int i=1; i<n ;i++) {
-        if(maj==arr[i]) {
+    int candidate = arr[0];
+    int count = 1;
+
+    for(int i = 1; i < n; i++) {
+        if(arr[i] == candidate) {
             count++;
         }
-        
+        else {
+            count--;
+        }
 
+        if(count == 0) {
+            candidate = arr[i];
+            count = 1;
+        }
     }
-    if(count>n/2) {
-        return count;
+
+    // Verify candidate
+    count = 0;
+    for(int i = 0; i < n; i++) {
+        if(arr[i] == candidate) {
+            count++;
+        }
     }
-    else {
+
+    if(count > n/2)
+        return candidate;
+    else
         return -1;
-    }
-
 }
-1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 int main() {
-    int arr[]={8, 3, 4, 8, 8};
-    int ans=maj_ele(arr,5);
-    cout<<ans;
+    int arr[] = {8, 3, 4, 8, 8};
+    cout << maj_ele(arr, 5);
 }
