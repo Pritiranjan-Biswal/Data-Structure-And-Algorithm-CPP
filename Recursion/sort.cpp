@@ -13,16 +13,6 @@ bool isSorted(int arr[], int size){
     }
     
 }
-
-
-
-
-
-
-
-
-
-
 int main() {
     int arr[]={2, 4, 6, 8, 9};
     bool ans=isSorted(arr, 5);

@@ -9,7 +9,7 @@ void say_digit( int n, string arr[]) {
     n=n/10;
 
     say_digit(n, arr);
-    cout<<arr[digit]<<" ";;
+    cout<<arr[digit]<<" ";
 }
 
 
