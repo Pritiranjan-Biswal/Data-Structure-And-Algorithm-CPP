@@ -11,15 +11,6 @@ char toLowercase(char ch) {
     }
 
 }
-
-
-
-
-
-
-
-
-
 int main() {
     
     cout<<toLowercase('b')<<endl;
