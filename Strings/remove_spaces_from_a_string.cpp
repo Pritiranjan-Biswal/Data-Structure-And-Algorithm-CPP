@@ -10,6 +10,7 @@ void remove_space(string str) {
             i++;
         }
     }
+    
     str.resize(i);
     cout<<str;
 }
