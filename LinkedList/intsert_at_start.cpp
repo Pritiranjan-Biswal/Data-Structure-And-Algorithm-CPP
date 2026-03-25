@@ -18,9 +18,6 @@ class Node{
 
 
 
-
-
-
 int main() {
     Node *Head;
     Head=new Node(4);
