@@ -28,3 +28,21 @@ int main() {
     string str="programming";
     freq(str);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

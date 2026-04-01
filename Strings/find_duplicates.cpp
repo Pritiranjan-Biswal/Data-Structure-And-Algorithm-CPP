@@ -9,7 +9,7 @@ char dupl(string str) {
             if(str[i]== str[j]) {
                 count++;
             }
-        }
+        }   
         if(count>0) {
             cout<< str[i]<<endl;;
         }

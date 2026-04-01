@@ -22,3 +22,27 @@ int main() {
     int arr[]={3,2,4,1,5};
     selection_sort(arr,5);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
