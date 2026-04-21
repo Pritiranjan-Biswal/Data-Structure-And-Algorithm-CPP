@@ -9,13 +9,8 @@ int  row_sum(int arr[][4], int row, int col) {
             sum=sum+arr[i][j];
         }
         cout<<sum<<endl;
-    }
-    
-    
+    } 
 }
-
-
-
 
 int main() {
     int arr[3][4];

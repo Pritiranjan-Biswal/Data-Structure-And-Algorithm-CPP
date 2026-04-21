@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main() {
-    char arr[10];
-    cin>>arr;
-    cout<<arr;
+    string s;
+    cin>>s;
+    cout<<s;
 }

@@ -1,16 +1,16 @@
-#include <bits/stdc++.h>
-using namespace std;
+    #include <bits/stdc++.h>
+    using namespace std;
 
-int largart(vector<int> &arr) {
-    int n=arr.size();
-    int m=arr[0];
-    for(int i=1; i<n; i++) {
-        if(arr[i]>m) {
-            m=arr[i];
-        } 
+    int largart(vector<int> &arr) {
+        int n=arr.size();
+        int m=arr[0];
+        for(int i=1; i<n; i++) {
+            if(arr[i]>m) {
+                m=arr[i];
+            } 
+        }
+        return m;
     }
-    return m;
-}
 
 
 
@@ -20,7 +20,7 @@ int largart(vector<int> &arr) {
 
 
 
-int main() {
-    vector<int>arr={1,2,56,8,7,1};
-    cout<<largart(arr);
-}
+    int main() {
+        vector<int>arr={1,2,56,8,7,1};
+        cout<<largart(arr);
+    }
