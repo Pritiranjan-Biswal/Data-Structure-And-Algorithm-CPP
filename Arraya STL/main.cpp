@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-    int N, K, P;
-    
-    cin >> N >> K >> P;
-
-    int result = ((P+K-1) % N) + 1;
-
-    cout << result << endl;
-
-    return 0;
+    int num=5;
+    int a=num;
+    cout<<"a before "<<num<<endl;
+    a++;
+    cout<<"a after "<<a<<endl;
+    int *p=&num;
+    cout<<"before "<<num<<endl;
+    (*p)++;
+    cout<<"after "<<num<<endl;
 }
