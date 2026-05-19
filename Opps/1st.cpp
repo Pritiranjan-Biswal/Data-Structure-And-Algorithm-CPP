@@ -19,7 +19,7 @@ class Student{
 
 int main() {
     Student s1;
-    s1.setName("kuna");
+    s1.setName("kuna biswal");
     cout<<s1.getName();
     
 }
