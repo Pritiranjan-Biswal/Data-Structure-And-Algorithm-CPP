@@ -2,34 +2,44 @@
 using namespace std;
 
 
-class Student{
-    
+class Customer
+ {
     string name;
-    int age, roll_number;
-    string grade;
+    int acc_no;
+    int balance;
 
     public:
-    void setName(string s) {
-        name=s;
+    //Default
+    Customer()
+    {
+        name="kuna";
+        acc_no=2;
     }
-    string getName() {
-        return name;
+    void display() 
+    {
+        cout<<name <<" "<<acc_no;
     }
-};
+ };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int main() {
-    Student s1;
-    s1.setName("kuna biswal");
-    cout<<s1.getName();
-    
+    Customer A1;
+    A1.display();
+
 }
-
-
-
-
-
-
-
-
-
-
