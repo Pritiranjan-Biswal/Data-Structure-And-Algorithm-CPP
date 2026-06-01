@@ -10,36 +10,28 @@ class Customer
 
     public:
     //Default
-    Customer()
+    Customer(string name, int acc_no, int balance)
     {
-        name="kuna";
-        acc_no=2;
+        this->name=name;
+        this->acc_no=acc_no;
+        this->balance=balance;
     }
+
+    inline Customer(string a, int b, int c) : name(a), acc_no(b), balance(c);
+     
     void display() 
     {
-        cout<<name <<" "<<acc_no;
+        cout<<this->name <<" "<<this->acc_no<<" "<<this->balance;
     }
  };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int main() {
-    Customer A1;
+    Customer A1("kuna",121234,2113);
+  
+    Customer A2;
+
     A1.display();
+    A2.display();
+
 
 }
