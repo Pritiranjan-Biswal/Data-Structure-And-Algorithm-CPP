@@ -1,26 +1,39 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-class Node{
-    public:
+class Node {
+public:
     int data;
-    Node *next;
+    Node* next;
 
-    Node (int value) {
-        data=value;
-        next=NULL;
+    Node(int data) {
+        this->data = data;
+        this->next = NULL;
     }
 };
 
-
-
-
-
-
-
 int main() {
-    Node *Head;
-    Head=new Node(4);
-    cout<<Head->data<<endl;
-    cout<<Head->next<<endl;
+    int arr[] = {2, 4, 6, 8, 10};
+
+    Node* Head = NULL;
+
+    for(int i = 0; i < 5; i++) {
+        if(Head == NULL) {
+            Head = new Node(arr[i]);
+        }
+        else {
+            Node* temp = new Node(arr[i]);
+            temp->next = Head;
+            Head = temp;
+        }
+    }
+
+    Node* temp = Head;
+
+    while(temp != NULL) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+
+    return 0;
 }
