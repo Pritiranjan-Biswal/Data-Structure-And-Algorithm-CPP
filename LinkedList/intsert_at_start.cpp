@@ -27,6 +27,7 @@ int main() {
             Head = temp;
         }
     }
+    
 
     Node* temp = Head;
 
