@@ -1,30 +1,34 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int sliding_window(int arr[], int n, int k) {
+int sliding_window(vector<int>arr, int k) {
+    int n = arr.size();
+    int right =0,left =0;
     int maxLen=0;
-    int sum=arr[0];
-    int r=0, l=0;
-    while(r<n) {
-        while(sum>k && l<=r) {
-            sum-=arr[l];
-            l++;
+    long long sum=arr[0];
+    while(right<n) {
+        while(left<=right && sum>k) {
+            sum-=arr[left];
+            left++;
         }
-        if(sum==k){
-            maxLen=max(maxLen, r-l+1);
+        if(sum==k) {
+            maxLen=max(maxLen, right-left+1);
         }
-        r++;
-        if(r<n) {
-            sum+=arr[r];
+        right++;
+        if(right<n) {
+            sum+=arr[right];
         }
-
     }
     return maxLen;
 }
 
 
 
-int main(){
-    int arr[]= {1, 2, 3, 1, 1, 1 };
-    cout<<sliding_window(arr, 6, 3);
-}   
+
+
+
+
+int main() {
+    vector<int> arr={1, 2, 3, 1, 1, 1 };
+    cout<<sliding_window(arr, 6);
+}
