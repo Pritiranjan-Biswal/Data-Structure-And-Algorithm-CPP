@@ -9,6 +9,8 @@ int peak_index(int arr[], int n) {
     while(s<e) {
         if(arr[mid]<arr[mid+1]) {
             s=mid+1;
+
+            
         }
         else {
             e=mid;
